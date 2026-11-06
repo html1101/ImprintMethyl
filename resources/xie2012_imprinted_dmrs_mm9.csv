@@ -1,0 +1,56 @@
+chrom,locus,type,germline,start_mm9,end_mm9,n_imprinted_cg,methylated_parent
+chr1,Gpr1/Zdbf2,Known,Y,63296857,63327099,94,paternal
+chr2,Mcts2/H13,Known,Y,152512010,152512663,25,maternal
+chr2,H13 DMR2 (3' end),Novel,-,152533500,152533900,12,maternal
+chr2,Nesp,Known,N,174109010,174113395,73,paternal
+chr2,Nespas/Gnasxl,Known,Y,174118404,174125287,25,maternal
+chr2,Gnas1a,Known,Y,174152611,174153503,18,maternal
+chr6,Peg10/Sgce,Known,Y,4696303,4699370,41,maternal
+chr6,Vwde promoter,Novel,-,13174720,13174854,7,paternal
+chr6,Mest (Peg1),Known,Y,30685840,30689965,57,maternal
+chr6,Herc3/Nap1l5,Known,Y,58857395,58857788,8,maternal
+chr6,Casc1 intragenic,Novel,-,145136212,145136335,7,maternal
+chr7,Peg3/Usp29,Known,Y,6680067,6685920,55,maternal
+chr7,6330408a02Rik 3' end,Novel,-,13846427,13846910,5,maternal
+chr7,Snurf/Snrpn,Known,Y,67148026,67150169,26,maternal
+chr7,Snrpn U exon,Novel,-,67285188,67285250,2,maternal
+chr7,U80893 5' upstream,Novel,-,68084346,68085190,4,maternal
+chr7,mir344b,Novel,-,68935151,68935803,5,maternal
+chr7,mir344c,Novel,-,68982367,68982367,1,maternal
+chr7,mir344,Novel,-,69022442,69022857,3,maternal
+chr7,mir344-2,Novel,-,69084650,69084878,2,maternal
+chr7,mir344g,Novel,-,69125234,69126166,4,maternal
+chr7,AK086712 promoter,Novel,-,69354141,69354450,9,maternal
+chr7,Ndn,Known,N,69493100,69493181,5,maternal
+chr7,Magel2 promoter,Novel (known in humans),-,69521307,69522167,15,maternal
+chr7,Magel2-Mrkn3 intergenic,Novel,-,69551285,69552030,6,maternal
+chr7,Mkrn3,Known,N,69564012,69565740,13,maternal
+chr7,Peg12,Known,NA,69608471,69609019,18,maternal
+chr7,Inpp5f,Known,Y,135831638,135831747,8,maternal
+chr7,H19 promoter,Known,N,149763483,149765230,16,paternal
+chr7,H19 ICR,Known,Y,149765791,149767931,44,paternal
+chr7,Kcnq1ot1,Known,Y,150480736,150482006,45,maternal
+chr7,Cdkn1c,Known,N,150645240,150647381,35,paternal
+chr7,Cdkn1c upstream,Known,-,150649567,150649883,8,paternal
+chr9,Rasgrf1,Known,Y,89771945,89780072,54,paternal
+chr10,Plagl1,Known,Y,12809928,12812145,29,maternal
+chr10,Neurog3 upstream,Novel,-,61590706,61590749,9,maternal
+chr11,Grb10,Known,Y,11923325,11926800,25,maternal
+chr11,Grb10 DMR2 (intragenic),Novel,-,11935418,11935544,5,maternal
+chr11,Zrsr1/Commd1,Known,Y,22871545,22874145,47,maternal
+chr11,Commd1 DMR2 (intragenic),Novel,-,22880151,22880300,4,maternal
+chr11,FR149454 promoter,Novel,-,119119717,119120635,15,maternal
+chr12,FR085584 promoter,Novel,-,81269160,81269984,33,maternal
+chr12,Dlk1,Known,N,110697919,110700243,15,paternal
+chr12,Dlk1-Gtl2 IG,Known,Y,110763965,110768609,48,paternal
+chr12,Gtl2,Known,N,110777813,110781249,40,paternal
+chr12,Gtl2-Mirg diffuse DMR,Novel,-,110783188,110989333,205,paternal
+chr13,Nhlrc1 downstream,Novel,-,47106179,47106298,5,maternal
+chr15,Myo10 intragenic,Novel,-,25643579,25643918,7,maternal
+chr15,Pvt1 promoter,Novel,-,61868725,61868885,10,maternal
+chr15,Peg13/Trappc9,Known,Y,72632245,72641614,133,maternal
+chr15,Eif2c2 diffuse DMR,Novel,-,72927789,73009831,38,paternal
+chr15,Slc38a4,Known,Y,96884431,96886172,29,maternal
+chr17,Airn/Igf2r,Known,Y,12934626,12935815,42,maternal
+chr17,Igf2r,Known,N,12962643,12962696,7,paternal
+chr18,Impact,Known,Y,13131356,13133257,64,maternal

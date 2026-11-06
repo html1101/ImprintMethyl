@@ -104,3 +104,17 @@ The crosses are pooled samples, not independent per-mouse replicates. Treat
 site-level and gene-level patterns as descriptive evidence, not independent
 replicate-level significance tests or proof of causality. Standard bisulfite
 sequencing also does not distinguish 5mC from 5hmC.
+
+## Coordinate check and file note (added by Rutwik)
+
+- **Coordinates are 1-based mm9.** Checked against the UCSC mm9 genome on chr1
+  and chr19: watson `pos_as_reported` sits on the C of a CpG (19,867 of 20,000
+  sampled sites, 99.3%), and crick sits on the G (26,554 of 26,886, 98.8%). So
+  `crick_pos - 1` and `watson_pos` refer to the same CpG dyad.
+- **Use `methylation_cpg_counts_mm9.tsv.gz`.** In the shared `processed.zip`,
+  the uncompressed `methylation_cpg_counts_mm9.tsv` contains only the Crick rows
+  (F1i 6,928,034, F1r 6,893,853). The `.tsv.gz` has all four Crick/Watson by
+  cross tables (27,732,275 rows).
+- **Imprinted DMRs** from Xie et al. 2012 Table S2 (55 DMRs, mm9; 41 maternally
+  and 14 paternally methylated; 31 previously known) are in
+  `resources/xie2012_imprinted_dmrs_mm9.csv`.
