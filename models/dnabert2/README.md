@@ -71,7 +71,15 @@ DNABERT-2's Triton flash-attention kernel fails to compile on this stack (torch 
 
 ## Results
 
-First-pass fine-tune: pending (job running on Bridges-2).
+First-pass fine-tune (job 50307501, one L40S, about 32 min of training per condition): 5% CpG sample, 1 epoch, 400k train examples, 40k chr19 test examples, 12,470 DMR examples from 55 loci.
+
+| | chr19 MSE | chr19 r | DMR MSE | DMR r | DMR direction matches published |
+|---|---|---|---|---|---|
+| Baseline (train mean) | 0.089 | | 0.147 | | |
+| A: sequence only | 0.035 | 0.78 | 0.138 | 0.38 | 0 / 55 (diff is 0 by construction) |
+| B: + parent of origin | 0.035 | 0.78 | 0.138 | 0.37 | 25 / 55 |
+
+Sequence alone predicts per-allele methylation well on the held-out chromosome. B is no better than A: its predicted maternal-minus-paternal difference is about 0.0015, against 0.44 observed at the DMRs, and 25/55 is chance. The DMRs are held out of training and the rest of the genome has almost no parent effect, so B never sees a parent signal to learn. Next run: strain-specific windows, and hold out DMRs by fold so some imprinted loci are in training.
 
 ## Known limitations
 
