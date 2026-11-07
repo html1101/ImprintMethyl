@@ -22,6 +22,15 @@ All paths default to `/ocean/projects/cis260266p/rpandit1/imprintmethyl` and can
 - `ref/xie2012_imprinted_dmrs_mm9.csv`: a copy of `resources/xie2012_imprinted_dmrs_mm9.csv`.
 - `dnabert2/`: these scripts.
 
+`resources/download_refs.sh` downloads the UCSC mm9 and mm10 references, an
+mm10-to-mm9 chain, and strain SNP VCFs. It lifts the SNPs from mm10 to mm9 and
+builds `ref/mm9_CAST_EiJ.fa` and `ref/mm9_129S1_SvImJ.fa` against the mm9
+reference, retaining PASS variants. The latter is a proxy for the experiment's
+129X1/SvJ strain. The resulting FASTAs use mm9 coordinates and chromosome names,
+so they align to the methylation table. `finetune.py` still uses the generic
+mm9 reference for both alleles; changing it to select strain-specific sequence
+is a separate step.
+
 ## Run on Bridges-2
 
 ```bash
