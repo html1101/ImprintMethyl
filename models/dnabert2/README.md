@@ -50,7 +50,7 @@ Knobs, set as environment variables: `WIN` (window length, default 1000), `TRAIN
   - **test:** all of chr19.
   - **dmr:** CpGs inside the 55 imprinted DMRs of Xie et al. 2012 (Table S2). These are held out of training.
   - **train:** a deterministic `TRAIN_PCT` sample of the remaining autosomes.
-- Uses the mm9 reference sequence for both alleles. Strain-specific (129 / CAST) sequence is not used yet.
+- Uses the mm9 reference sequence for both alleles. The strain-specific (129 / CAST) FASTAs described above are not wired into `finetune.py` yet.
 
 ## Metrics
 
